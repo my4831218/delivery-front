@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "S-CoreDream-2ExtraLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "S-CoreDream-8Heavy";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffeaec;
+  font-family: "S-CoreDream-2ExtraLight";
+  font-size: 1.5rem;
+}
+
+.index-img-wrapper {
+  max-width: 60vw;
+  margin-bottom: 30px;
+}
+
+.index-img {
+  width: 100%;
+}
+
+#index-app-name {
+  font-family: "S-CoreDream-8Heavy";
+  font-size: 4rem;
+  color: #ff1229;
+}
+
+.index-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.index-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.index-btn {
+  width: 50vw;
+  height: 5vh;
+  border: 1px solid #ff1229;
+  background-color: #ff1229;
+  color: white;
+  margin-bottom: 5vh;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

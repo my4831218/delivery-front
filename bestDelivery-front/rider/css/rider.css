@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "S-CoreDream-2ExtraLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "S-CoreDream-8Heavy";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffeaec;
+  font-family: "S-CoreDream-2ExtraLight";
+  font-size: 1.5rem;
+}
+
+.common-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100vw;
+  height: 6vh;
+  background-color: #ff1229;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  font-family: "S-CoreDream-8Heavy";
+}
+
+input {
+  width: 100vw;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.riderlogin-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-text {
+  font-family: "S-CoreDream-8Heavy";
+  font-size: 3rem;
+  color: #ff1229;
+  margin-bottom: 10px;
+}
+
+.riderlogin-input {
+  width: 90vw;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.riderlogin-input {
+  width: 90vw;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.riderlogin-btn {
+  width: 50vw;
+  height: 5vh;
+  border: 1px solid #ff1229;
+  background-color: #ff1229;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ff1229;
+
+  font-family: "S-CoreDream-8Heavy";
+  font-size: 2rem;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.desc-header {
+  width: 100vw;
+  height: 7vh;
+  background-color: lightgray;
+
+  font-family: "S-CoreDream-8Heavy";
+  font-size: 1.5rem;
+  color: black;
+  box-sizing: border-box;
+  padding-left: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.call-list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1rem;
+
+  box-sizing: border-box;
+}
+
+.attached-btn {
+  width: 30vw;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: lightgray;
+  background-color: #ff1229;
+  color: white;
+  font-weight: bold;
+}
+
+.callInfo {
+  font-size: 1.5rem;
+  font-family: "S-CoreDream-2ExtraLight";
+  font-weight: bold;
+  width: 100vw;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.callInfoItem {
+  margin-bottom: 25px;
+}

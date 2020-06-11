@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+      integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./user/css/user.css" />
+  </head>
+  <body>
+    <header class="header">최강배달</header>
+    <div class="desc-header">회원 가입</div>
+
+    <div class="desc-header">회원 유형</div>
+    <div class="radio-group">
+      <div>
+        <input
+          type="radio"
+          name="user-type"
+          class="radio-input"
+          value="손님"
+        />손님
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="user-type"
+          class="radio-input"
+          value="라이더"
+        />라이더
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          name="user-type"
+          class="radio-input"
+          value="사장님"
+        />사장님
+      </div>
+    </div>
+
+    <div>
+      <div class="desc-header">ID</div>
+      <input type="text" placeholder="아이디를 입력하세요..." id="id" />
+    </div>
+
+    <div>
+      <div class="desc-header">PW</div>
+      <input type="text" placeholder="아이디를 입력하세요..." id="pw" />
+    </div>
+
+    <div class="common-btn">
+      <span>회원가입</span>
+    </div>
+
+    <script src="./signUp.js"></script>
+  </body>
+</html>
